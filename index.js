@@ -2,7 +2,7 @@ const { ButtonBuilder,  ActionRowBuilder } = require('@discordjs/builders');
 const { Client, GatewayIntentBits, Message} = require('discord.js');
 const { TicTacToe } = require('./databaseObjects.js');
 const { token  } = require('./config.json');
-// Create a new client instance
+// Create a new client instancec
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
 // When the client is ready, run this code (only once)
